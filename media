@@ -1,0 +1,40 @@
+algoritimo"media"
+Var
+
+n1,n2,n3,n4:real
+media:real
+
+
+Inicio
+
+escreval("digite o primeiro nota")
+leia(n1)
+escreval("digite o segundo nota")
+leia(n2)
+escreval("digite o terceiro nota")
+leia(n3)
+escreval("digite o quarto nota")
+leia(n4)
+ media<-(n1+n2+n3+n4)/4
+ escreval("a media é: ",media)
+ 
+  se media= 10 entao
+ escreval("parabens nota maxima")
+ 
+ se media > 6 entao
+ escreval("aprovado")
+ senao
+ escreval("reprovado")
+
+
+ fimse
+ fimse
+ 
+
+
+
+
+
+
+
+Fimalgoritmo
